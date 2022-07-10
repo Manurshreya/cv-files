@@ -22,7 +22,6 @@ h1 {
     list-style-type: none;
     padding: 20px 15px;
 }
-
 .nav-flex-row li a {
   font-family: 'Big Shoulders Text', cursive;
    color: #000;
@@ -33,7 +32,6 @@ h1 {
 .nav-flex-row li a:hover{
    background: #E7E7E7;
 }
-
 .section-intro {
    height: 820px;
    background-size: cover;
@@ -42,14 +40,12 @@ h1 {
    justify-content: center;
    align-items: center;
 }
-
 .section-intro h1 {
    text-align: center;
    color: #FFE194;
    font-size: 5em;
    font-weight: 800;
 }
-
 .section-intro header {
    display: flex;
    flex: 4;
@@ -57,11 +53,9 @@ h1 {
    justify-content: center;
    align-items: center;
 }
-
 .link-to-book-wrapper {
    flex: 1;
 }
-
 .about-section {
   display: flex;
    align-items: center;
@@ -78,19 +72,16 @@ h1 {
     font-size: 1.8em;
     text-transform: uppercase;
 }
-
 .row-flex {
     display: flex;
     flex-direction: row;
 }
-
 .flex-column-form {
     display: flex;
     flex-direction: column;
     flex: 1;
     margin: 30px 20px;
 }
-
 .btn.btn-primary {
     font-family: 'Big Shoulders Text', cursive;
     color: #ffffff;
@@ -101,7 +92,6 @@ h1 {
    letter-spacing: 2px;
    border: 0;
 }
-
 .btn.btn-primary:hover {
    background-color: #747474;
 }
@@ -112,63 +102,48 @@ h1 {
    font-size: 1.2em;
    color: #E7E7E7;
 }
-
 .form-group p {
    font-size: 1.2em;
 }
-
 .opening-time p span,
 .contact-address p span {
    display: block;
    @media (min-width:577px) and (max-width: 800px) {
-
-    .section-intro {
+   .section-intro {
         height: 500px;
     }
-
     .about-section p,
     .about-section h3 {
         font-size: 20px;
     }
-
     .carousel-inner {
         height: auto;
     }
-
     .row-flex {
         display: flex;
         flex-direction: column;
     }
-}
-
     .section-intro {
         height: 300px;
     }
-
     .about-section {
         padding: 30px;
     }
-
     .section-intro h1 {
         font-size: 2em;
       }
-
   .about-section p,
   .about-section h3 {
       font-size: 15px;
   }
-
-
   .row-flex {
       display: flex;
       flex-direction: column;
   }
-
   .row-flex h3 {
       font-size: 25px;
       text-align: center;
   }
-
   .form-group p {
       font-size: 15px;
   }
@@ -178,5 +153,3 @@ h1 {
         text-align: center;
         color: #E7E7E7;
     }
-
-}
